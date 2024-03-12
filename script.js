@@ -32,23 +32,23 @@ async function checkWeather(city){
 
     switch(weather_data.weather[0].main){
         case 'Clouds':
-            weather_img.src = "/assets/cloud.png";
+            weather_img.src = "cloud.png";
             break;
         case 'Clear':
-            weather_img.src = "/assets/sun.png";
+            weather_img.src = "sun.png";
             break;
         case 'Rain':
-            weather_img.src = "/assets/rain.png";
+            weather_img.src = "rain.png";
             break;
         case 'Mist':
-            weather_img.src = "/assets/mist.png";
+            weather_img.src = "mist.png";
             break;
         case 'Snow':
-            weather_img.src = "/assets/snow.png";
+            weather_img.src = "snow.png";
             break;
     }
     if((Math.round(weather_data.main.temp - 273.15))<0){
-        weather_img.src = "/assets/snow.png";
+        weather_img.src = "snow.png";
     }
 }
 
