@@ -10,7 +10,7 @@ Pressure and precipitation information
 
 
 ## Live-Preview:
-[Click Here to View Live Preview]()
+[Click Here to View Live Preview](https://agp-weather-app.netlify.app/)
 
 ## Sample-Image:
 ![Weather Website Prev](weather-app.png)
